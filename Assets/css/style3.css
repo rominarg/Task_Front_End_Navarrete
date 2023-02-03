@@ -34,8 +34,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    background-attachment: fixed; 
 }
 
 .banner-img2{
@@ -60,10 +59,11 @@ body {
     background:#5FA199;
 }
 
+/* Page About */
+
 .container_about {
     text-align: justify;
-    font-size: 18px;
-}
+    }
 
 .image_home, .image_about {
     transform: translate(200px,50px);
@@ -80,20 +80,19 @@ body {
 
 .parrafo {
 transform: translate(600px,-210px);
-    font-size: 18px;
 }
 
 .h6_subtitle{
     width: 700px;
     transform: translate(600px,-210px);
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .subtitle{
     transform: translate(20px,-80px);
 }
 
-.banner_contact{
+/* .banner_contact{
     background-image: url('../img/design1_image2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +102,7 @@ transform: translate(600px,-210px);
     background-attachment: fixed;
     text-align: right;
     position: relative;
-}
+} */
  
 .flex_container{
     display: flex;
@@ -180,7 +179,6 @@ transform: translate(600px,-210px);
     padding-right: 500px;
     color:#5FA199;
     padding-bottom: 30px;
-    
 }
 
 table thead {
