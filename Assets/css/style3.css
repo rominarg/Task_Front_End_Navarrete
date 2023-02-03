@@ -62,6 +62,7 @@ body {
 
 .container_about {
     text-align: justify;
+    font-size: 18px;
 }
 
 .image_home, .image_about {
