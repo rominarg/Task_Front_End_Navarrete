@@ -249,8 +249,9 @@ th{
 input[type="submit" i] {
     background-color: #e9bd15;
     color: #000000;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
+    border-radius: 10px;
 }
 
 
