@@ -5,52 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="shortcut icon" href="./Assets/img/favicon.ico" type="image/x-icon">
 
-<link rel="stylesheet" href="Assets/style.css">
+<!-- Vinculacion Google fonts --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 
+
+<!-- Vinculacion de mi hoja de estilos propia CSS --> 
+    <link rel="stylesheet" href="Assets/css/style3.css">
+    <!-- <link rel="stylesheet" href="Assets/css/style2.css"> -->
+    <!-- <link rel="stylesheet" href="Assets/css/style3.css"> -->
 </head>
 
 
 <body>
-
-    <header>
-<main>
-        <table>
-        <td>
-            <figure>
-                <img src="Assets/img/Logo_Mighty_ducks-01.png" alt="logo" width="150">
-            </figure>
-        </td>
-        <td>
-                <h1>Mighty Ducks Hockey League</h1>
+    <header class="header">
+        <section class="menu_logo">
+            <figure><img src="Assets/img/logo_vertical.png" alt="logo"></figure>
+        </section>
+        <section class="menu">
         <nav>
-            <a>Home |</a>
-            <a href="about.html">About MDHL |</a>
-            <a href="contact.html">Contact</a>
+            <a class="menu active" href="#">Home</a>
+            <a class="menu" href="./about.html">About MDHL</a>
+            <a class="menu" href="./game_info.html">Game Info</a> 
+            <a class="menu" href="./rules.html">Rules</a>  
+            <a class="menu" href="./contact.html">Contact</a>
+            <a class="menu" href="./registration.html">Registration</a>
         </nav>
-        </td>
-    </table>
+        </section>
     </header>
 
-<section>
-    <table>
-    <td>
-        <img src="Assets/img/hockey  1.jpg"  alt="imagen de hockey" width="500">
-    </td>
-    <td>
-        <h3><strong>Upcoming Events</strong></h3>
-    <dl>
-        <h4><i><strong>August 4</strong></i></h4>
-            <p>MDSL Fundraiser</p>
-       <h4><i><strong>August 16</strong></i></h4>
-            <p>Season Kick-off: Meet the Teams</p>
-        <h4><i><strong>September 1</strong></i></h4>
-            <p>First Game of the Season (Check Game Schedule for deails)</p> 
-    </dl>
-</td>
-</table>
+<main>
+    <section>
+         <section class="banner-img" alt="imagen de hockey">
+        </section>
+    <section class="title">
+    <div>
+        <h1>Upcoming Events</h1>     
+    </div>
 </section>
-  
-</main>
+
+
+<section class="content1">
+<section class="eventos"></section>
+<figure class="image_home"><img src="./Assets/img/hockey_3.jpg" alt="imagen de hockey3"></figure>
+    <ul>
+        <li class="h4_subtitle">August 4</li>
+        <p class="parrafo">MDSL Fundraiser</p>
+    </ul>
+    <ul>
+        <li class="h4_subtitle">August 16</li>
+        <p class="parrafo">Season Kick-off: Meet the Teams</p>
+    </ul>
+    <ul>
+        <li class="h4_subtitle">September 1</li>
+        <p class="parrafo">First Game of the Season (Check Game Schedule for deails)</p>
+    </ul>
+</section>
+</section>
+
+</main>     
 </body>
 </html>
